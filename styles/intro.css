@@ -1,20 +1,20 @@
 .home-container{
-  margin-top: 85px;
+  margin-top: 70px;
   display: flex;
   justify-content: center; 
-  height: 300px;
+  align-items: center;
+  min-height: 270px;
   width: 100%;
   border: 1px solid black;
-  padding-left: 40px;
-  padding-right: 40px;
-
+  flex-wrap: wrap;
+  gap: 30px;  
 }
 
 .photo-me-container{
   display: flex;
   align-items: center;
   border: 1px solid black;
-  margin-right: 80px;
+
 }
 
 .photo-me{
@@ -25,10 +25,10 @@
 
 }
 
-.intro-contanier{
+.intro-container{
   display: flex;
   flex-direction: column;
-  padding-left: px;
+
 }
 
 
@@ -60,6 +60,7 @@
   width: 40px;
   border-radius: 20px;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 
