@@ -4,3 +4,8 @@ body{
   padding: 0px 0px 0px 0px;
   height: 2000px;
 }
+
+div, button{
+  margin: 0px 0px 0px 0px;
+}
+

@@ -1,20 +1,23 @@
 .home-container{
-  margin-top: 70px;
+  margin-top: 75px;
   display: flex;
   justify-content: center; 
   align-items: center;
   min-height: 270px;
-  width: 100%;
   border: 1px solid black;
   flex-wrap: wrap;
-  gap: 30px;  
+  gap: 25px;  
+  
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 15px 0px 15px;
 }
 
 .photo-me-container{
   display: flex;
   align-items: center;
-  border: 1px solid black;
-
+  border: 1px solid rgb(222, 8, 8);
 }
 
 .photo-me{
@@ -35,23 +38,19 @@
 .title{
   font-weight: 500;
   font-size: 60px;
-  border: 1px solid black;
   margin-bottom: 20px;
 }
 .description{
-  border: 1px solid black;
   margin-bottom: 5px;
 }
 
 .title-socials{  
-  border: 1px solid black;
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px; 
 }
 .socials-container{
   display: flex;
-  border: 1px solid black;
 }
 
 .icon-socials{
@@ -62,6 +61,5 @@
   cursor: pointer;
   margin-right: 10px;
 }
-
 
 
