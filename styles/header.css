@@ -13,6 +13,9 @@
   top: 0;
   left: 0;
   right: 0;
+  
+  background-color: rgb(71, 59, 59);
+  color: white;
 }
 
 .header-item{
@@ -22,7 +25,13 @@
   transition: color .15s,
     font-weight .15s 
   ;
+
+  background-color: white;
+  color: black;
+  /*
+
   color: rgb(84, 84, 84);
+  */
 
   padding: 6px 6px 6px 6px;
   border-radius: 3px;

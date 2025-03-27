@@ -12,12 +12,12 @@
   margin-left: auto;
   margin-right: auto;
   padding: 10px 15px 0px 15px;
+  border-color: white;
 }
 
 .photo-me-container{
   display: flex;
   align-items: center;
-  border: 1px solid rgb(222, 8, 8);
 }
 
 .photo-me{
