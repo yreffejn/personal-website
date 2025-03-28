@@ -3,7 +3,16 @@ body{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   height: 2000px;
-    
+  
+
+  /* Two linear gradients, one for horizontal lines, one for vertical */
+  background-image:
+    linear-gradient(#ccc 1px, transparent 1px),
+    linear-gradient(to right, #ccc 1px, transparent 1px);
+
+  /* Set the grid cell size. 20px wide and 20px tall. */
+  background-size: 40px 40px;
+
 }
 
 div, button, p{
