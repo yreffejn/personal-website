@@ -3,20 +3,10 @@ body{
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   height: 2000px;
-  /*
-  background-image: linear-gradient(to bottom right, #eed6d3 , white);
-  */
-  
-  
-  
-  
-  background-color: rgb(39, 39, 42);
-  
-  color: white;
-
+    
 }
 
-div, button{
+div, button, p{
   margin: 0px 0px 0px 0px;
 }
 
