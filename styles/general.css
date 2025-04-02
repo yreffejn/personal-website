@@ -1,7 +1,7 @@
 body{
   font-family: Mulish;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  padding: 0px;
   height: 2000px;
   
 
@@ -14,8 +14,7 @@ body{
   background-size: 40px 40px;
 
 }
-
-div, button, p{
-  margin: 0px 0px 0px 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
-
