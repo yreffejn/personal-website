@@ -35,6 +35,8 @@
 
   border-top-style: solid;
   border-top-width: 1px;
+  flex-wrap: wrap;
+
 }
 
 .software-container{
