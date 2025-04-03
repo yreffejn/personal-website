@@ -14,13 +14,13 @@
   background-color: white;
 }
 
-.upper-techstack-container{
+.upper-techstack-container .title{
   display: flex;
   font-size: 50px;
   font-weight: 500;
 
   justify-content: center;
-
+  margin: 0px;
 }
 
 .lower-techstack-container{
@@ -29,7 +29,7 @@
   align-items: center;
   height: 100%;
 
-  padding: 10px 15px 10px 15px;
+  padding: 10px 15px;
 
   gap: 20px;
 

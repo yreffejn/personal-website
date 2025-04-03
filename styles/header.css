@@ -1,13 +1,12 @@
 .header{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   border: 1px solid black;
   height: 70px;
-  margin-bottom: 0px;
-  padding-left: 40px;
-  padding-right: 40px;
+
+  padding: 0px 30px;
 
   position: fixed;
   top: 0;
@@ -15,29 +14,43 @@
   right: 0;
   background-color: black;
   /* background-color: #bfd7ed; */
-  color: white;
+  
 }
 
 .header-item{
   border: 1px solid black;
-  margin-right: 25px;
-  font-size: 20px;
-  transition: color .15s,
-    font-weight .15s 
-  ;
-
+  font-size: 20px;  
   background-color: white;
   color: black;
+  
+  transition: color .5s,
+    font-weight .5s,
+    transform 0.3s
+  ;
   /*
-
   color: rgb(84, 84, 84);
   */
-
-  padding: 6px 6px 6px 6px;
+  padding: 6px 10px;
   border-radius: 3px;
+
+  cursor: pointer;
 }
 
 .header-item:hover{
-  color: black;
-  font-weight: 600;
+  background-color: #d4bfbf;
+}
+
+.header-item:active {
+  background-color: #bbb;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  
+  border-color: 1px solid white;
+}
+
+.right-section .header-item{
+  margin-left: 20px;
 }

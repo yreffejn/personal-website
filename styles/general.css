@@ -18,3 +18,19 @@ body{
   margin: 0;
   padding: 0;
 }
+
+button {
+  transition: color .5s,
+    font-weight .5s,
+    transform 0.3s
+  ;
+}
+
+
+button:hover{
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
