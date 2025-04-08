@@ -13,7 +13,6 @@
   border: 2px solid black;
   border-radius: 8px;
   background-color: white;
-  gap: 20px;
 
 }
 
@@ -44,16 +43,13 @@
 
   min-height: 450px; /* Keep the tall height for desktops */
 
-
   border: 2px solid rgb(0, 0, 0);
   border-radius: 1px;
-  gap: 0px;
 
 }
 
 .project p {
   margin: 0px 50px;
-  
 }
 
 .project .title {
@@ -110,7 +106,7 @@
 
   .projects-grid {
     grid-template-columns: 1fr; 
-    padding: 0 10px;   /* reduce side padding */
+    padding: 10px 10px;   /* reduce side padding */
     gap: 20px;
   }
 

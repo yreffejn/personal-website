@@ -24,6 +24,7 @@ button {
     font-weight .5s,
     transform 0.3s
   ;
+  cursor: pointer;
 }
 
 
